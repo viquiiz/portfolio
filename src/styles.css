@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --default-border: 0.1rem solid rgba(0, 0, 0, 0.15);
+    --default-border-radius: 1.2rem;
+    --default-primary-color: #FFAB33;
+    --default-secondary-color: #5F4119;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.4rem;
+}

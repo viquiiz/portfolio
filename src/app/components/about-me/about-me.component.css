@@ -1,0 +1,16 @@
+.about-me-container {
+    max-width: 60rem;
+}
+
+.main-title {
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+.about-me-text {
+    font-family: 'Sanchez', serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-align: justify;
+    padding-top: 2.4rem;
+}

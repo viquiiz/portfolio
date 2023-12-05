@@ -1,0 +1,12 @@
+.skills-container {
+    height: 49.6rem;
+    background-image: url(src/assets/brown-bg.png);
+    background-repeat: no-repeat;
+    background-size: 33rem 49.6rem;
+}
+
+.skills-container > h2 {
+    padding: 3.9rem 0 0 9.7rem;
+    font-size: 6.4rem;
+    font-weight: 700;
+}

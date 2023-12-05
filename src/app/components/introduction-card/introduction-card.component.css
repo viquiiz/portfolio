@@ -1,0 +1,23 @@
+.introduction-card-container {
+    border-left: #FFAB33 solid 0.3rem;
+    height: 22rem;    
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.introduction-card-maintext > h3 {
+    font-size: 3.2rem;
+    font-family: 'Sanchez', serif;
+    color: #5F4119;
+    font-weight: 400;
+}
+
+.introduction-card-maintext > h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+.introduction-card-maintext, .introduction-card-icons {
+    padding-left: 4rem;
+}
