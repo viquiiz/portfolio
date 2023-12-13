@@ -1,0 +1,49 @@
+.hard-skills-container {
+    width: 103rem;
+    height: 30rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hard-skills-section {
+    display: flex;
+    flex-direction: column;
+    border-right: solid 0.1rem;
+    height: 27.1rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.hard-skills-section:last-child{
+    border-style: none;
+}
+
+.hard-skills-section > p {
+    color: #000;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 2.2rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+.title > img {
+    height: 5rem;
+    width: 5rem;
+    margin: 1.3rem;
+}
+
+.title > h3 {
+    color: #000;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+

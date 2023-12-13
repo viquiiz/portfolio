@@ -10,6 +10,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { AboutMePageComponent } from './pages/about-me-page/about-me-page.component';
 import { SkillsPageComponent } from './pages/skills-page/skills-page.component';
 import { HardSkillsComponent } from './components/hard-skills/hard-skills.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { HardSkillsComponent } from './components/hard-skills/hard-skills.compon
     AboutMePageComponent,
     SkillsPageComponent,
     HardSkillsComponent,
+    ProjectCardComponent,
+    ProjectsPageComponent,
   ],
   imports: [
     BrowserModule,

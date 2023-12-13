@@ -3,10 +3,53 @@
     background-image: url(src/assets/brown-bg.png);
     background-repeat: no-repeat;
     background-size: 33rem 49.6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: end;
 }
 
 .skills-container > h2 {
-    padding: 3.9rem 0 0 9.7rem;
+    padding-top: 3.9rem;
     font-size: 6.4rem;
     font-weight: 700;
+    position: absolute;
+    left: 10%;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12.4rem;
+    margin-right: 4rem;
+    max-width: 103rem;
+}
+
+.skills-buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.skills-buttons > button {
+    margin: 0.2rem;
+    width: 12.4rem;
+    height: 4rem;
+    border-radius: 0.4rem;
+    background: rgba(95, 65, 25, 0.48);
+    color: #FFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    border-style: none;
+}
+
+.skills-buttons > button:hover {
+    background: rgba(95, 65, 25, 1);
+    cursor: pointer;
+}
+
+.skills-component {
+    margin-top: 2.7rem;
 }
