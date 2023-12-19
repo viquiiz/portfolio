@@ -1,0 +1,58 @@
+.project-card-container {
+    border-radius: 0.8rem;
+    border: 0.1rem solid #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-type-tag {
+    color: #5F4119;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+    font-weight: 400;
+    justify-content: flex-start;
+    margin: 0.9rem 0 0 1.5rem;
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 1.6rem;
+}
+
+.project-description {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 1.6rem 1.6rem 0 1.6rem;
+}
+
+.project-buttons > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-buttons > ul > li {
+    list-style: none;
+    margin: 1.6rem;
+}
+
+.project-buttons > ul > li > a {
+    text-decoration: none;
+    color: rgba(95, 65, 25, 0.43);
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.project-buttons > ul > li >a:hover {
+    color: rgba(95, 65, 25, 1);
+    transition: all 0.3s ease 0s;
+}

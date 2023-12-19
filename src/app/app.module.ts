@@ -12,6 +12,11 @@ import { SkillsPageComponent } from './pages/skills-page/skills-page.component';
 import { HardSkillsComponent } from './components/hard-skills/hard-skills.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
+import { SoftSkillsComponent } from './components/soft-skills/soft-skills.component';
+import { EducationPageComponent } from './pages/education-page/education-page.component';
+import { EducationCardComponent } from './components/education-card/education-card.component';
+import { CertificateCardComponent } from './components/certificate-card/certificate-card.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +30,11 @@ import { ProjectsPageComponent } from './pages/projects-page/projects-page.compo
     HardSkillsComponent,
     ProjectCardComponent,
     ProjectsPageComponent,
+    SoftSkillsComponent,
+    EducationPageComponent,
+    EducationCardComponent,
+    CertificateCardComponent,
+    ContactPageComponent,
   ],
   imports: [
     BrowserModule,

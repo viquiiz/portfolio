@@ -1,0 +1,47 @@
+.education-page-container {
+    background-image: url(src/assets/orange-bg.png);
+    background-repeat: no-repeat;
+    background-size: 33rem 100%;
+    background-position-x: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-title {
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    margin:5.4rem 10% 0 0;
+}
+
+.education-card {
+    display: flex;
+    margin: 4.2rem 20% 10rem 0;
+    justify-content: center;
+}
+
+.education-certificates {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.certificates-title {
+    margin-left: 2.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.certificate-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 19%;
+}
+
+.certificate-card {
+    margin: 2.3rem;
+}

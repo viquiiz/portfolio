@@ -1,0 +1,29 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-main-title {
+    display: flex;
+    width: 80rem;
+    border-bottom: solid #FFAB33 0.3rem;
+}
+
+.projects-main-title > h3 {
+    padding: 1.6rem;
+    color: #1E1E1E;
+    font-size: 6.4rem;
+    font-weight: 700;
+    margin-left: 6.5rem;
+}
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 6.6rem 6.6rem 0 6.6rem;
+}
+
+.projects-card-component    {
+    margin: 2.5rem;
+}
