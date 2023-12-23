@@ -1,14 +1,14 @@
 <div class="certificate-card-container">
     <div class="certificate-title">
-        PyCaxias
+        <span>{{ title }}</span>
     </div>
     <div class="certificate-description">
-        <p>Evento da comunidade Python de Caxias do Sul<br>
-            11/03/2023<br>
-            Duração: 8h
+        <p>{{ description }}<br>
+            {{ date }}<br>
+            Duração: {{ workload }}
         </p>
     </div>
     <div class="certificate-link">
-        <span><a href="#">// ver certificado</a></span>
+        <span><a href=" {{ link }} ">// ver certificado</a></span>
     </div>
 </div>

@@ -40,6 +40,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-right: 19%;
+    min-height: 36rem;
 }
 
 .certificate-card {

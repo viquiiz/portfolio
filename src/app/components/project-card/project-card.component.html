@@ -1,20 +1,20 @@
 <div class="project-card-container">
     <div class="project-type-tag">
-        <span>web</span>
+        <span>{{ tag }}</span>
     </div>
     <div class="project-img">
-        <img src="./assets/pokemon-desktop.png" alt="">
+        <img src="{{ img }}" alt="">
     </div>
     <div class="project-title">
-        <h3>Pokédex</h3>
+        <h3>{{title}}</h3>
     </div>
     <div class="project-description">
-        <p>Projeto clássico desenvolvido apenas com JavaScript, HTML e CSS. Utiliza o consumo da PokéAPI para mostrar os dados dos Pokémon.</p>
+        <p>{{ description }}</p>
     </div>
     <div class="project-buttons">
         <ul>
-            <li><a href="#">// preview</a></li>
-            <li><a href="#">// repositório</a></li>
+            <li><a href="{{ preview }}">{{button1}}</a></li>
+            <li><a href="{{ repository }}">{{button2}}</a></li>
         </ul>
     </div>
 </div>
