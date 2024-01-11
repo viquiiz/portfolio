@@ -17,6 +17,7 @@ import { EducationPageComponent } from './pages/education-page/education-page.co
 import { EducationCardComponent } from './components/education-card/education-card.component';
 import { CertificateCardComponent } from './components/certificate-card/certificate-card.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { ScrollUpComponent } from './components/scroll-up/scroll-up.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     EducationCardComponent,
     CertificateCardComponent,
     ContactPageComponent,
+    ScrollUpComponent,
   ],
   imports: [
     BrowserModule,

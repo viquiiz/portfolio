@@ -1,28 +1,31 @@
-<div class="app-container">
-    <div class="menu-bar">
+<section class="app-container">
+    <section class="menu-bar">
         <app-menu-bar></app-menu-bar>
-    </div>
-    <div class="app-content">
-        <div class="homepage">
+    </section>
+    <section class="app-content">
+        <section class="homepage" id="home">
             <app-home-page></app-home-page>
-        </div>
+        </section>
         <hr>
-        <div class="aboutme-page">
+        <section class="aboutme-page" id="aboutme">
             <app-about-me-page></app-about-me-page>
-        </div>
-        <div class="skills-page">
+        </section>
+        <section class="skills-page" id="skills">
             <app-skills-page></app-skills-page>
-        </div>
-        <div class="projects-page">
+        </section>
+        <section class="projects-page" id="projects">
             <app-projects-page></app-projects-page>
-        </div>
-        <div class="education-page">
+        </section>
+        <section class="education-page" id="education">
             <app-education-page></app-education-page>
-        </div>
-        <div class="contact-page">
+        </section>
+        <section class="contact-page" id="contact">
             <app-contact-page></app-contact-page>
-        </div>
-    </div>
-</div>
+        </section>
+        <section class="scroll-up-button">
+            <app-scroll-up></app-scroll-up>
+        </section>
+    </section>
+</section>
 
 <router-outlet></router-outlet>

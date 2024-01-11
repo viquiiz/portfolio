@@ -2,11 +2,14 @@
     <h2>Habilidades</h2>
     <div class="skills-content">
         <div class="skills-buttons">
-            <button>técnicas</button>
-            <button>não técnicas</button>
+            <button class="normal-button" (click)="showElement(1)" (click)="activateButton(1)" [ngClass]="{'active-button': activeButton === 1}">técnicas</button>
+            <button class="normal-button" (click)="showElement(2)" (click)="activateButton(2)" [ngClass]="{'active-button': activeButton === 2}">não técnicas</button>
         </div>
-        <div class="skills-component">
+        <div class="skills-component" *ngIf="hardSkills">
             <app-hard-skills></app-hard-skills>
+        </div>
+        <div class="skills-component" *ngIf="softSkills">
+            <app-soft-skills></app-soft-skills>
         </div>
     </div>
 </div>

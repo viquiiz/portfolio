@@ -16,7 +16,7 @@ export class CertificateCardComponent implements OnInit{
   @Input()
   workload:string = "input workload"
   @Input()
-  link:string = "#"
+  link:string = ""
 
   ngOnInit(): void {
   }

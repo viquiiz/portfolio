@@ -1,0 +1,15 @@
+.scroll-up-container {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+}   
+
+.scroll-up-container > img {
+    height: 5rem;
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.scroll-up-container > img:hover {
+    opacity: 100%;
+}
