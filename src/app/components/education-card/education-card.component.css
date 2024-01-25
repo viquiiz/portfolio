@@ -5,6 +5,7 @@
     border: 0.1rem solid #000;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
 }
 
 .education-card-section {

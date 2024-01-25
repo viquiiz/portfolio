@@ -1,5 +1,5 @@
 .education-page-container {
-    background-image: url(src/assets/orange-bg.png);
+    background-image: url(src/assets/img/orange-bg.png);
     background-repeat: no-repeat;
     background-size: 33rem 100%;
     background-position-x: right;
@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 2rem;
 }
 
 .certificates-title {
